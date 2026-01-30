@@ -5,11 +5,17 @@ Blue Light Noise Trigger (Raspberry Pi)
 A Raspberry Pi project that listens to microphone input and turns a light ON when sound levels exceed a defined threshold, then turns it OFF when levels drop back down.
 
 Designed for real-world use:
+
 ✔ debounce protection
+
 ✔ daily logging
+
 ✔ hourly breakdowns
+
 ✔ max dB tracking
+
 ✔ auto-start on boot via systemd
+
 ✔ safe shutdown handling
 
 What this does
@@ -46,7 +52,7 @@ Relay module, MOSFET, or LED connected to a GPIO pin
 
 Light or device being controlled
 
-⚠️ Important:
+Important:
 Most microphones do not provide true SPL dB readings. Values are relative unless you calibrate with a real sound meter.
 
 Software Requirements
